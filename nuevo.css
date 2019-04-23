@@ -37,7 +37,7 @@ animation-direction: alternate;
     background-image: url(file:\\C:\Users\ramy_\OneDrive\Escritorio\Marijo\SAI\nuevo\image4.jpg);
     opacity: 1;
   }
-    100%, 104%{
+    101%, 104%{
     opacity: 0.1;
     }
     105%, 110%{
