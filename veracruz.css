@@ -1,0 +1,41 @@
+.banner{
+width: 200px;
+height: 250px;
+border: 3px solid purple;
+margin: auto;
+background-image: url(file:\\C:\Users\ramy_\OneDrive\Escritorio\Marijo\SAI\ver\image1.jpg);
+
+background-size: 100% 100%;
+animation: banner 10s infinite;
+animation-direction: alternate;
+}
+
+
+@keyframes banner{
+  0%, 25%{
+    background-image: url(file:\\C:\Users\ramy_\OneDrive\Escritorio\Marijo\SAI\ver\image1.jpg);
+    opacity: 1;
+  }
+  26%,29%{
+    opacity: 0.1;
+  }
+  30%, 45%{
+    background-image: url(file:\\C:\Users\ramy_\OneDrive\Escritorio\Marijo\SAI\ver\image2.jpg);
+    opacity: 1;
+  }
+  46%, 49%{
+    opacity: 0.1;
+  }
+  50%, 70%{
+    background-image: url(file:\\C:\Users\ramy_\OneDrive\Escritorio\Marijo\SAI\ver\image3.jpg);
+    opacity: 1;
+  }
+  71%, 74%{
+    opacity: 0.1;
+  }
+  75%, 100%{
+    background-image: url(file:\\C:\Users\ramy_\OneDrive\Escritorio\Marijo\SAI\ver\image4.jpg);
+    opacity: 1; 
+    }
+ }
+    
