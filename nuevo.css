@@ -1,9 +1,10 @@
+
 .banner{
-width: 200px;
-height: 250px;
+width: 400px;
+height: 200px;
 border: 3px solid purple;
 margin: auto;
-background-image: url(file:\\C:\Users\ramy_\OneDrive\Escritorio\Marijo\SAI\nuevo\image1.jpg);
+background-image: url(nuevo/image1.jpg);
 
 background-size: 100% 100%;
 animation: banner 10s infinite;
@@ -13,35 +14,35 @@ animation-direction: alternate;
 
 @keyframes banner{
   0%, 25%{
-    background-image: url(file:\\C:\Users\ramy_\OneDrive\Escritorio\Marijo\SAI\nuevo\image1.jpg);
+    background-image: url(nuevo/image1.jpg);
     opacity: 1;
   }
   26%,29%{
     opacity: 0.1;
   }
   30%, 45%{
-    background-image: url(file:\\C:\Users\ramy_\OneDrive\Escritorio\Marijo\SAI\nuevo\image2.jpg);
+    background-image: url(nuevo/image2.jpg);
     opacity: 1;
   }
   46%, 49%{
     opacity: 0.1;
   }
   50%, 70%{
-    background-image: url(file:\\C:\Users\ramy_\OneDrive\Escritorio\Marijo\SAI\nuevo\image3.jpg);
+    background-image: url(nuevo/image3.jpg);
     opacity: 1;
   }
   71%, 74%{
     opacity: 0.1;
   }
   75%, 100%{
-    background-image: url(file:\\C:\Users\ramy_\OneDrive\Escritorio\Marijo\SAI\nuevo\image4.jpg);
+    background-image:url(nuevo/image4.jpg);
     opacity: 1;
   }
     101%, 104%{
     opacity: 0.1;
     }
     105%, 110%{
-    background-image: url(file:\\C:\Users\ramy_\OneDrive\Escritorio\Marijo\SAI\nuevo\image5.jpg);
+    background-image: url(nuevo/image5.jpg);
     opacity: 1;
     }
 }
